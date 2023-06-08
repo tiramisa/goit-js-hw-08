@@ -1,5 +1,5 @@
 import Player from '@vimeo/player';
-import throttle from 'lodash.throttle';
+import { throttle } from 'lodash';
 
 const video = document.querySelector('iframe');
 const player = new Player(video);
